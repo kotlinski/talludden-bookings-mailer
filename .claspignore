@@ -1,0 +1,9 @@
+# Ignore everything, then allow only the Apps Script sources and manifest.
+**/**
+!appsscript.json
+!*.js
+!*.gs
+!*.html
+
+# Never push local secrets
+secrets.local.json

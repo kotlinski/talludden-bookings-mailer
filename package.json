@@ -1,0 +1,15 @@
+{
+  "name": "talludden-bookings-mailer",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:kotlinski/talludden-bookings-mailer.git",
+  "author": "Simon Kotlinski <simon.kotlinski@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@google/clasp": "^3.4.1",
+    "@types/google-apps-script": "^2.0.15"
+  },
+  "scripts": {
+    "local": "node local/run.js"
+  }
+}
